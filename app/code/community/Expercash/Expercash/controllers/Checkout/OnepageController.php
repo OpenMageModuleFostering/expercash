@@ -84,7 +84,7 @@ class Expercash_Expercash_Checkout_OnepageController
         $addresses['billing']['use_for_shipping_no'] = true;
         $addresses['shipping'] = $shippingAddress->toArray($addressKeys);
 
-        $this->getResponse()->setHeader('Content-type', 'application/x-json');
+        $this->getResponse()->setHeader('Content-type', 'application/json', true);
         $this->getResponse()->setBody(Mage::helper('core/data')->jsonEncode($addresses));
     }
 
@@ -107,7 +107,7 @@ class Expercash_Expercash_Checkout_OnepageController
         }
 
         $this->getResponse()
-            ->setHeader('Content-type', 'application/json')
+            ->setHeader('Content-type', 'application/json', true)
             ->setBody(Mage::helper('core')->jsonEncode($result));
     }
 }

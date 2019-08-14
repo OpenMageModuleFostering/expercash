@@ -142,7 +142,7 @@ class Expercash_Expercash_Helper_Masterpass extends Expercash_Expercash_Helper_P
      */
     protected function getCustomerSession()
     {
-        return Mage::getModel('customer/session');
+        return Mage::getSingleton('customer/session');
     }
 
     /**
@@ -227,10 +227,17 @@ class Expercash_Expercash_Helper_Masterpass extends Expercash_Expercash_Helper_P
     public function setBillingDataToQuoteAndSession($params)
     {
         $quote = Mage::getSingleton('checkout/session')->getQuote();
+        /** @var Mage_Sales_Model_Quote_AddressB $billingAddress */
         $billingAddress = $quote->getBillingAddress();
         $params = new Varien_Object($params);
 
-        $billingAddress->setStreetFull($params->getData('customer_address1'));
+        $street = array(
+            $params->getCustomerAddress1(),
+            $params->getCustomerAddress3()
+        );
+
+        $billingAddress->setStreetFull($street);
+        $billingAddress->setCompany($params->getCustomerAddress2());
         $billingAddress->setCity($params->getData('customer_city'));
         $billingAddress->setCountryId($params->getData('customer_country'));
         $billingAddress->setRegion($params->getData('customer_country_subdivision'));
@@ -275,6 +282,7 @@ class Expercash_Expercash_Helper_Masterpass extends Expercash_Expercash_Helper_P
         $billingAddressArray = $billingAddress->toArray(
             array(
                 'street',
+                'company',
                 'city',
                 'country_id',
                 'region',
@@ -291,7 +299,7 @@ class Expercash_Expercash_Helper_Masterpass extends Expercash_Expercash_Helper_P
         unset($billingAddressArray['totals']);
         unset($billingAddressArray['rates']);
 
-        return $billingAddressArray['email'];
+        return $billingAddressArray;
     }
 
     /**
@@ -320,8 +328,14 @@ class Expercash_Expercash_Helper_Masterpass extends Expercash_Expercash_Helper_P
         $shippingAddress->setLastname($deliveryLastname);
         $shippingAddress->setTelephone($params->getData('delivery_telephone'));
 
+        $shippingStreet = array(
+            $params->getDeliveryAddress1(),
+            $params->getDeliveryAddress3()
+        );
+
         // address data
-        $shippingAddress->setStreetFull($params->getData('delivery_address1'));
+        $shippingAddress->setStreetFull($shippingStreet);
+        $shippingAddress->setCompany($params->getDeliveryAddress2());
         $shippingAddress->setCity($params->getData('delivery_city'));
         $shippingAddress->setCountryId($params->getData('delivery_country'));
         $shippingAddress->setRegion($params->getData('delivery_country_subdivision'));

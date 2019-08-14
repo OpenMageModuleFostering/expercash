@@ -13,21 +13,25 @@ endobj
 << /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
 endobj
 5 0 obj
-<< /Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+<< /Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
   /Type /Page >>
 endobj
 6 0 obj
-<< /Outlines 10 0 R /PageLabels 11 0 R /PageMode /UseNone /Pages 8 0 R /Type /Catalog >>
+<< /Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
 7 0 obj
-<< /Author () /CreationDate (D:20150812133930-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
-  /Title (Expercash Payment Modul) >>
+<< /Outlines 12 0 R /PageLabels 13 0 R /PageMode /UseNone /Pages 9 0 R /Type /Catalog >>
 endobj
 8 0 obj
-<< /Count 1 /Kids [ 5 0 R ] /Type /Pages >>
+<< /Author () /CreationDate (D:20151024001614-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Expercash Payment Modul) >>
 endobj
 9 0 obj
-<< /Length 12003 >>
+<< /Count 2 /Kids [ 5 0 R 6 0 R ] /Type /Pages >>
+endobj
+10 0 obj
+<< /Length 12210 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -55,29 +59,29 @@ BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 209.1099 0 Td (Changelog) Tj T* -209.1099 0 Td
 Q
 Q
 q
-1 0 0 1 62.69291 141.3701 cm
+1 0 0 1 62.69291 129.3701 cm
 1 1 1 rg
-n 0 552 469.8898 -18 re f*
+n 0 564 469.8898 -18 re f*
 .878431 .878431 .878431 rg
-n 0 534 469.8898 -84 re f*
+n 0 546 469.8898 -42 re f*
 1 1 1 rg
-n 0 450 469.8898 -156 re f*
+n 0 504 469.8898 -42 re f*
 .878431 .878431 .878431 rg
-n 0 294 469.8898 -60 re f*
+n 0 462 469.8898 -84 re f*
 1 1 1 rg
-n 0 234 469.8898 -42 re f*
+n 0 378 469.8898 -156 re f*
 .878431 .878431 .878431 rg
-n 0 192 469.8898 -120 re f*
+n 0 222 469.8898 -60 re f*
 1 1 1 rg
-n 0 72 469.8898 -36 re f*
+n 0 162 469.8898 -42 re f*
 .878431 .878431 .878431 rg
-n 0 36 469.8898 -36 re f*
+n 0 120 469.8898 -120 re f*
 .960784 .960784 .862745 rg
-n 0 552 469.8898 -18 re f*
+n 0 564 469.8898 -18 re f*
 0 .533333 .603922 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 537 cm
+1 0 0 1 6 549 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 46.73622 12 re f*
@@ -88,7 +92,7 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 2.52811 0 Td (Revision) Tj T* -2.52811 0 Td ET
 Q
 Q
 q
-1 0 0 1 64.73622 537 cm
+1 0 0 1 64.73622 549 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 46.73622 12 re f*
@@ -99,7 +103,7 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 7.81311 0 Td (Datum) Tj T* -7.81311 0 Td ET
 Q
 Q
 q
-1 0 0 1 123.4724 537 cm
+1 0 0 1 123.4724 549 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 340.4173 12 re f*
@@ -111,31 +115,161 @@ Q
 Q
 0 0 0 rg
 q
-1 0 0 1 6 519 cm
+1 0 0 1 6 531 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.08.13) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.10.26) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 507 cm
+1 0 0 1 64.73622 519 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (13.08.201) Tj T* (5) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (26.10.201) Tj T* (5) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 519 cm
+1 0 0 1 123.4724 531 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 525 cm
+Q
+q
+1 0 0 1 123.4724 507 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (use additional return parameters) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 507 cm
+Q
+q
+1 0 0 1 6 489 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.09.23) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 477 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (23.09.201) Tj T* (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 489 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 513 cm
+1 0 0 1 123.4724 483 cm
 Q
 q
-1 0 0 1 123.4724 453 cm
+1 0 0 1 123.4724 465 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (fix contend type header for Ajax Response) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 465 cm
+Q
+q
+1 0 0 1 6 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.08.13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (13.08.201) Tj T* (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 447 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 441 cm
+Q
+q
+1 0 0 1 123.4724 381 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -197,34 +331,34 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 453 cm
+1 0 0 1 123.4724 381 cm
 Q
 q
-1 0 0 1 6 435 cm
+1 0 0 1 6 363 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.05.06) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 423 cm
+1 0 0 1 64.73622 351 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (06.05.201) Tj T* (5) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 435 cm
+1 0 0 1 123.4724 363 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 429 cm
+1 0 0 1 123.4724 357 cm
 Q
 q
-1 0 0 1 123.4724 351 cm
+1 0 0 1 123.4724 279 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -310,20 +444,20 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 351 cm
+1 0 0 1 123.4724 279 cm
 Q
 q
-1 0 0 1 123.4724 339 cm
+1 0 0 1 123.4724 267 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 333 cm
+1 0 0 1 123.4724 261 cm
 Q
 q
-1 0 0 1 123.4724 297 cm
+1 0 0 1 123.4724 225 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -385,34 +519,34 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 297 cm
+1 0 0 1 123.4724 225 cm
 Q
 q
-1 0 0 1 6 279 cm
+1 0 0 1 6 207 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.04.13) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 267 cm
+1 0 0 1 64.73622 195 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (13.04.201) Tj T* (5) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 279 cm
+1 0 0 1 123.4724 207 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 273 cm
+1 0 0 1 123.4724 201 cm
 Q
 q
-1 0 0 1 123.4724 237 cm
+1 0 0 1 123.4724 165 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -474,34 +608,34 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 237 cm
+1 0 0 1 123.4724 165 cm
 Q
 q
-1 0 0 1 6 219 cm
+1 0 0 1 6 147 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.14) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 207 cm
+1 0 0 1 64.73622 135 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (14.04.201) Tj T* (4) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 219 cm
+1 0 0 1 123.4724 147 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 213 cm
+1 0 0 1 123.4724 141 cm
 Q
 q
-1 0 0 1 123.4724 195 cm
+1 0 0 1 123.4724 123 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -539,37 +673,37 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 195 cm
+1 0 0 1 123.4724 123 cm
 Q
 q
-1 0 0 1 6 177 cm
+1 0 0 1 6 105 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.10) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 165 cm
+1 0 0 1 64.73622 93 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (10.04.201) Tj T* (4) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 177 cm
+1 0 0 1 123.4724 105 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 171 cm
+1 0 0 1 123.4724 99 cm
 Q
 q
-1 0 0 1 123.4724 171 cm
+1 0 0 1 123.4724 99 cm
 Q
 q
-1 0 0 1 123.4724 159 cm
+1 0 0 1 123.4724 87 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -590,10 +724,10 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 153 cm
+1 0 0 1 123.4724 81 cm
 Q
 q
-1 0 0 1 123.4724 141 cm
+1 0 0 1 123.4724 69 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -614,10 +748,10 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 135 cm
+1 0 0 1 123.4724 63 cm
 Q
 q
-1 0 0 1 123.4724 123 cm
+1 0 0 1 123.4724 51 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -638,10 +772,10 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 117 cm
+1 0 0 1 123.4724 45 cm
 Q
 q
-1 0 0 1 123.4724 105 cm
+1 0 0 1 123.4724 33 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -662,23 +796,23 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 105 cm
+1 0 0 1 123.4724 33 cm
 Q
 q
-1 0 0 1 123.4724 93 cm
+1 0 0 1 123.4724 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 123.4724 87 cm
+1 0 0 1 123.4724 15 cm
 Q
 q
-1 0 0 1 123.4724 87 cm
+1 0 0 1 123.4724 15 cm
 Q
 q
-1 0 0 1 123.4724 75 cm
+1 0 0 1 123.4724 3 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -699,8 +833,63 @@ q
 Q
 Q
 q
-1 0 0 1 123.4724 75 cm
+1 0 0 1 123.4724 3 cm
 Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 0 m 469.8898 0 l S
+n 0 546 m 469.8898 546 l S
+n 0 504 m 469.8898 504 l S
+n 0 462 m 469.8898 462 l S
+n 0 378 m 469.8898 378 l S
+n 0 222 m 469.8898 222 l S
+n 0 162 m 469.8898 162 l S
+n 0 120 m 469.8898 120 l S
+n 58.73622 0 m 58.73622 564 l S
+n 117.4724 0 m 117.4724 564 l S
+n 0 564 m 469.8898 564 l S
+n 0 0 m 0 564 l S
+n 469.8898 0 m 469.8898 564 l S
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 24/10/2015) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 215.0449 0 Td (1/2) Tj T* -215.0449 0 Td ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+11 0 obj
+<< /Length 2186 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 721.3701 cm
+1 1 1 rg
+n 0 72 469.8898 -36 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -36 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
 q
 1 0 0 1 6 57 cm
 q
@@ -808,26 +997,20 @@ q
 1 j
 0 0 0 RG
 .25 w
-n 0 534 m 469.8898 534 l S
-n 0 450 m 469.8898 450 l S
-n 0 294 m 469.8898 294 l S
-n 0 234 m 469.8898 234 l S
-n 0 192 m 469.8898 192 l S
 n 0 72 m 469.8898 72 l S
 n 0 36 m 469.8898 36 l S
-n 58.73622 0 m 58.73622 552 l S
-n 117.4724 0 m 117.4724 552 l S
-n 0 552 m 469.8898 552 l S
+n 58.73622 0 m 58.73622 72 l S
+n 117.4724 0 m 117.4724 72 l S
+n 0 0 m 0 72 l S
+n 469.8898 0 m 469.8898 72 l S
 n 0 0 m 469.8898 0 l S
-n 0 0 m 0 552 l S
-n 469.8898 0 m 469.8898 552 l S
 Q
 Q
 q
-1 0 0 1 62.69291 141.3701 cm
+1 0 0 1 62.69291 721.3701 cm
 Q
 q
-1 0 0 1 62.69291 141.3701 cm
+1 0 0 1 62.69291 721.3701 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
@@ -836,14 +1019,14 @@ BT /F1 10 Tf 12 TL ET
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 12/08/2015) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 24/10/2015) Tj T* ET
 Q
 Q
 q
 1 0 0 1 246.9449 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 215.0449 0 Td (1/1) Tj T* -215.0449 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 215.0449 0 Td (2/2) Tj T* -215.0449 0 Td ET
 Q
 Q
 q
@@ -852,35 +1035,41 @@ Q
  
 endstream
 endobj
-10 0 obj
+12 0 obj
 << /Count 0 /Type /Outlines >>
 endobj
-11 0 obj
-<< /Nums [ 0 12 0 R ] >>
+13 0 obj
+<< /Nums [ 0 14 0 R 1 15 0 R ] >>
 endobj
-12 0 obj
+14 0 obj
 << /S /D /St 1 >>
 endobj
+15 0 obj
+<< /S /D /St 2 >>
+endobj
 xref
-0 13
+0 16
 0000000000 65535 f
 0000000075 00000 n
 0000000129 00000 n
 0000000239 00000 n
 0000000354 00000 n
 0000000476 00000 n
-0000000683 00000 n
-0000000790 00000 n
-0000001023 00000 n
-0000001085 00000 n
-0000013145 00000 n
-0000013195 00000 n
-0000013239 00000 n
+0000000684 00000 n
+0000000892 00000 n
+0000000999 00000 n
+0000001232 00000 n
+0000001300 00000 n
+0000013568 00000 n
+0000015811 00000 n
+0000015861 00000 n
+0000015914 00000 n
+0000015951 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com)
- [(\261\246$c\234\252\367\344\260L\270\025\246j\300\371) (\261\246$c\234\252\367\344\260L\270\025\246j\300\371)]
- /Info 7 0 R /Root 6 0 R /Size 13 >>
+ [(i_\306\213\274\237\312:\366\262\240J\332#\371/) (i_\306\213\274\237\312:\366\262\240J\332#\371/)]
+ /Info 8 0 R /Root 7 0 R /Size 16 >>
 startxref
-13276
+15988
 %%EOF
