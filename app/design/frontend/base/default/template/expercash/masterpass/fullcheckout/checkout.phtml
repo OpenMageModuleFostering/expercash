@@ -1,0 +1,62 @@
+<?php
+/**
+ * Expercash Expercash
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to
+ * newer versions in the future.
+ *
+ * @category    Expercash
+ * @package     Expercash_Expercash
+ * @copyright   Copyright (c) 2015 Netresearch GmbH & Co. KG (http://www.netresearch.de/)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<?php
+/**
+ * @var $this Expercash_Expercash_Block_Masterpass_Fullcheckout_Shortcut
+ */
+?>
+
+<?php if ($this->getMasterpassConfig()->isShowCheckoutTextEnabled()): ?>
+    <?php $showMoreLink = $this->getLearnMoreLink() ?>
+    <div class="masterpass-checkout">
+        <h3>
+            <?php echo $this->__('Pay with Masterpass') ?>
+        </h3>
+
+        <p class="masterpass-info">
+            <?php echo $this->__($this->getMasterpassConfig()->getCheckoutText()); ?>
+        </p>
+
+        <div class="masterpass-checkout-wrapper">
+            <div class="masterpass-checkout-right">
+                <div class="masterpass_checkout-logo">
+                    <a class="masterpass-logo" href="<?php echo $this->getCheckoutUrl() ?>">
+                        <img src="<?php echo $this->getImageUrl() ?>"
+                             alt="<?php echo $this->__('Checkout with Masterpass'); ?>"
+                             title="<?php echo $this->__('Checkout with Masterpass'); ?>"/>
+                    </a>
+                    <?php if ($showMoreLink): ?>
+                        <div class="masterpass-checkout-link">
+                            <a class="learn_more_link" href="<?php echo $showMoreLink ?>"
+                               onclick="javascript:window.open('<?php echo $showMoreLink ?>',
+                                   'olcwhatismasterpass','toolbar=no, location=no, ' +
+                                   'directories=no, status=no, menubar=no, scrollbars=yes,' +
+                                   ' resizable=yes, ,left=0, top=0, width=400, height=350');
+                                   return false;"><?php echo $this->__('Learn more...') ?></a>
+                        </div>
+                    <?php endif; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php endif; ?>

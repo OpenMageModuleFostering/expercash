@@ -1,0 +1,53 @@
+<!--
+/**
+ * Expercash Expercash
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to
+ * newer versions in the future.
+ *
+ * @category    Expercash
+ * @package     Expercash_Expercash
+ * @copyright   Copyright (c) 2015 Netresearch GmbH & Co. KG (http://www.netresearch.de/)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+-->
+<strong><?php print Mage::helper('expercash')->__('Paymentinformations ExperCash') ?></strong>
+<br />
+<?php if ($this->getExperCashInfo('expercash_gutid')): ?>
+    <?php echo Mage::helper('expercash')->__('Transaction Id at ExperCash: %s', $this->getExperCashInfo('expercash_gutid')) ?><br />
+<?php endif; ?>
+
+<?php if (!$this->getExperCashInfo('expercash_request_type')): ?>
+    <?php echo Mage::helper('expercash')->__('Payment type at ExperCash: %s', $this->getExperCashInfo('expercash_request_type')) ?><br />
+<?php endif; ?>
+
+<?php if ($this->getExperCashInfo('expercash_gutid_capture')): ?>
+    <?php echo Mage::helper('expercash')->__('Transaction Id for Capture/Buy at ExperCash: %s', $this->getExperCashInfo('expercash_gutid_capture')) ?><br />
+<?php endif; ?>
+
+<?php if ($this->getExperCashInfo('expercash_epi_payment_id')): ?>
+    <?php echo Mage::helper('expercash')->__('Epi Payment Id/Pay-ID for Capture/Buy at ExperCash: %s', $this->getExperCashInfo('expercash_epi_payment_id')) ?><br />
+<?php endif; ?>
+
+<?php echo Mage::helper('expercash')->__('Paymenttype: %s', Mage::helper('expercash')->__($this->getExperCashInfo('expercash_paymenttype'))) ?><br />
+
+<!-- show additional payment info if they exist -->
+<?php foreach (Mage::helper('expercash')->getAdditionalPaymentParams() as $key): ?>
+    <?php if ($this->getInfo()->hasAdditionalInformation($key)): ?>
+        <?php if ($key === '3dsStatus') : ?>
+            <?php echo Mage::helper('expercash')->__($key . ': %s', Mage::helper('expercash')->__('3dsecureValue_' . $this->getInfo()->getAdditionalInformation($key)))?> <br />
+        <?php else: ?>
+            <?php echo Mage::helper('expercash')->__($key . ': %s', $this->getInfo()->getAdditionalInformation($key)) ?> <br />
+        <?php endif ?>
+    <?php endif; ?>
+<?php endforeach; ?>

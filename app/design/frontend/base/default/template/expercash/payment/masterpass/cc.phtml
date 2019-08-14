@@ -1,0 +1,17 @@
+<?php /* @var $this Expercash_Expercash_Block_Masterpass_Fullcheckout_Cc */ ?>
+<table id="masterpass-cc-data">
+    <colgroup>
+        <col/>
+        <col/>
+    </colgroup>
+    <tbody>
+        <tr>
+            <td class="label"><?php echo $this->__('maskedPan:') ?></td>
+            <td class="value"><?php echo $this->getMaskedPan() ?></td>
+        </tr>
+        <tr>
+            <td class="label"><?php echo $this->__('cardScheme:') ?></td>
+            <td class="value"><?php echo $this->getCardSchema() ?></td>
+        </tr>
+    </tbody>
+</table>

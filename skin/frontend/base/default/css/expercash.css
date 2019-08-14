@@ -1,0 +1,167 @@
+.masterpass-checkout h3 {
+    font-weight: bold;
+
+}
+
+.masterpass-checkout h3, .masterpass-checkout p {
+    text-align: left;
+
+}
+
+.masterpass-checkout .masterpass-info {
+    font-size: 14px;
+}
+
+
+.masterpass-links a {
+    margin: 10px;
+    width: auto;
+    text-decoration: none;
+}
+
+.masterpass-links .learn_more_link {
+    text-decoration: underline;
+}
+
+.masterpass-links .learn_more_link:hover {
+    text-decoration: none;
+}
+
+.masterpass-logo a img {
+
+}
+
+.top .masterpass-logo {
+    height: 40px;
+    padding-right: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.masterpass-logo a {
+    text-decoration: none;
+}
+
+.masterpass-checkout-wrapper {
+    width: 100%;
+    height: 70px;
+}
+
+.masterpass-checkout-left {
+    float: left;
+    width: 50%;
+}
+
+.masterpass-checkout-right {
+    float: right;
+    width: 50%;
+}
+
+.masterpass_checkout-logo {
+    float:right;
+    margin: 20px 20px 0 0;
+}
+
+.masterpass-checkout-link {
+    float: right;
+    padding: 10px 0 0 0;
+}
+
+#masterpass_payment_method {
+    height: auto;
+    width: auto;
+    max-width: 135px;
+    max-height: 135px;
+}
+
+.masterpass-wrapper {
+    width: 240px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.masterpass-fullcheckout {
+    float:left;
+    display: inline-block;
+    max-width: 67%;
+}
+.masterpass-or-top {
+    text-align: center;
+    line-height: 37px;
+    color: #636363;
+}
+
+.masterpass-or-bottom {
+    margin: 0 0 2em 0;
+    color: #636363;
+}
+
+.or-divider {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.masterpass-wrapper-bottom {
+    width: 100%;
+}
+
+.or-divider span {
+    display: inline-block;
+    position: relative;
+}
+
+.or-divider span:before,
+.or-divider span:after {
+    /*content: "";*/
+    /*position: absolute;*/
+    /*height: 5px;*/
+    /*border-bottom: 1px solid #e6e6e6;*/
+    /*border-top: 1px solid #e6e6e6;*/
+    /*width: 60px;*/
+}
+
+.or-divider span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.or-divider span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.masterpass-fullcheckout-bottom {
+    padding: 0 0 10px 0;
+}
+
+.masterpass-link {
+    padding: 3px 0 0 0;
+}
+
+.masterpass-checkout {
+    height: 180px;
+}
+
+.masterpass-wrapper-mini-cart {
+    width: 100%;
+}
+
+.masterpass-fullcheckout-mini-cart  {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#masterpass-cc-data {
+    color: #636363;
+    border-spacing: 1px;
+}
+
+#masterpass-cc-data .label {
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+#masterpass-cc-data .value {
+    font-style: italic;
+}

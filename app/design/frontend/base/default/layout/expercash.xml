@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Expercash Expercash
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to
+ * newer versions in the future.
+ *
+ * @category    Expercash
+ * @package     Expercash_Expercash
+ * @copyright   Copyright (c) 2015 Netresearch GmbH & Co. KG (http://www.netresearch.de/)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<layout version="0.1.0">
+
+    <default>
+        <reference name="cart_sidebar.extra_actions">">
+            <block type="expercash/masterpass_fullcheckout_shortcut"
+                   name="expercash.masterpass.mini_cart.shortcut"
+                   template="expercash/masterpass/fullcheckout/shortcut.phtml"/>
+        </reference>
+    </default>
+
+    <expercash_expercash_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+            <action method="setHeaderTitle" translate="title" module="expercash">
+                <title>Payment</title>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="expercash/expercash" name="expercash" template="expercash/expercash.phtml"/>
+        </reference>
+    </expercash_expercash_index>
+
+    <expercash_expercash_error>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+            <action method="setHeaderTitle" translate="title" module="expercash">
+                <title>Payment Error</title>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="expercash/expercash" name="expercash" template="expercash/expercasherror.phtml"/>
+        </reference>
+    </expercash_expercash_error>
+
+    <checkout_cart_index>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <file>css/expercash.css</file>
+            </action>
+        </reference>
+        <reference name="topCart.extra_actions">
+            <block type="expercash/masterpass_fullcheckout_shortcut"
+                   name="expercash.masterpass.top_cart.shortcut"
+                   template="expercash/masterpass/fullcheckout/shortcut.phtml"/>
+        </reference>
+        <reference name="cart_sidebar.extra_actions">
+            <block type="expercash/masterpass_fullcheckout_shortcut" name="expercash.cart_sidebar.shortcut"
+                   template="expercash/masterpass/fullcheckout/shortcut.phtml"/>
+        </reference>
+        <reference name="checkout.cart.top_methods">
+            <block type="expercash/masterpass_fullcheckout_shortcut"
+                   name="checkout.cart.methods.masterpass_fullcheckout.top" before="-"
+                   template="expercash/masterpass/fullcheckout/shortcut.phtml">
+                <action method="setIsQuoteAllowed">
+                    <value>1</value>
+                </action>
+            </block>
+        </reference>
+        <reference name="checkout.cart.methods">
+            <block type="expercash/masterpass_fullcheckout_shortcut"
+                   name="checkout.cart.methods.masterpass_fullcheckout.bottom" before="-"
+                   template="expercash/masterpass/fullcheckout/shortcut.phtml">
+                <action method="setIsQuoteAllowed">
+                    <value>1</value>
+                </action>
+            </block>
+        </reference>
+    </checkout_cart_index>
+
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <file>css/expercash.css</file>
+            </action>
+        </reference>
+        <reference name="checkout.onepage">
+            <action method="setTemplate">
+                <template helper="expercash/masterpass/getOpcTemplate"/>
+            </action>
+            <block type="core/template" name="checkout.onepage.js"
+                   template="expercash/checkout/onepage/js.phtml"/>
+        </reference>
+        <reference name="checkout.payment.methods">
+            <block type="core/template" name="payment.method.expercashmp"
+                   template="expercash/payment/logo/logo.phtml"/>
+        </reference>
+        <reference name="checkout.onepage.login.before">
+            <block type="expercash/masterpass_fullcheckout_shortcut" name="expercash.masterpass.login.shortcut"
+                   template="expercash/masterpass/fullcheckout/checkout.phtml"/>
+        </reference>
+    </checkout_onepage_index>
+</layout>

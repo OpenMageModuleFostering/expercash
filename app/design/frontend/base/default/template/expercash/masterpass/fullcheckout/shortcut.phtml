@@ -1,0 +1,119 @@
+<?php
+/**
+ * Expercash Expercash
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to
+ * newer versions in the future.
+ *
+ * @category    Expercash
+ * @package     Expercash_Expercash
+ * @copyright   Copyright (c) 2015 Netresearch GmbH & Co. KG (http://www.netresearch.de/)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<?php
+/**
+ * @var $this Expercash_Expercash_Block_Masterpass_Fullcheckout_Shortcut
+ */
+?>
+
+<?php $showMoreLink = $this->getLearnMoreLink() ?>
+
+    <!-- button top -->
+<?php if ($this->isCartTop()): ?>
+    <div class="masterpass-wrapper">
+        <div class="masterpass-fullcheckout">
+            <p class="masterpass-logo">
+                <?php $shortcutHtmlId = $this->getShortcutHtmlId() ?>
+                <a href="<?php echo $this->getCheckoutUrl() ?>">
+                    <img src="<?php echo $this->getImageUrl() ?>"
+                         alt="<?php echo $this->__('Checkout with Masterpass'); ?>"
+                         title="<?php echo $this->__('Checkout with Masterpass'); ?>"/>
+                </a>
+            </p>
+        </div>
+        <div class="masterpass-or-top">
+            <span>
+            <?php echo Mage::helper('expercash/data')->__('-OR-') ?>
+                </span>
+        </div>
+    </div>
+<?php endif; ?>
+
+    <!-- button bottom -->
+<?php if ($this->isCartBottom()): ?>
+    <div class="masterpass-wrapper-bottom">
+        <div class="masterpass-fullcheckout-bottom">
+            <p class="masterpass-logo">
+                <?php $shortcutHtmlId = $this->getShortcutHtmlId() ?>
+                <a href="<?php echo $this->getCheckoutUrl() ?>">
+                    <img src="<?php echo $this->getImageUrl() ?>"
+                         alt="<?php echo $this->__('Checkout with Masterpass'); ?>"
+                         title="<?php echo $this->__('Checkout with Masterpass'); ?>"/>
+                </a>
+            </p>
+
+            <?php if ($showMoreLink): ?>
+                <p class="masterpass-link">
+                    <a href="<?php echo $showMoreLink ?>"
+                       onclick="javascript:window.open('<?php echo $showMoreLink ?>',
+                           'olcwhatismasterpass','toolbar=no, location=no, ' +
+                           'directories=no, status=no, menubar=no, scrollbars=yes,' +
+                           ' resizable=yes, ,left=0, top=0, width=400, height=350');
+                           return false;">
+                        <?php echo $this->__('Learn more...') ?>
+                    </a>
+                </p>
+            <?php endif; ?>
+        </div>
+
+        <div class="masterpass-or-bottom or-divider">
+            <span> <?php echo Mage::helper('expercash/data')->__('-OR-') ?> </span>
+        </div>
+
+    </div>
+<?php endif; ?>
+
+
+    <!-- button bottom -->
+    <?php if ( $this->isMiniCart() === true): ?>
+        <div class="masterpass-wrapper-mini-cart">
+            <div class="masterpass-fullcheckout-mini-cart">
+                <p class="masterpass-logo">
+                    <?php $shortcutHtmlId = $this->getShortcutHtmlId() ?>
+                    <a href="<?php echo $this->getCheckoutUrl() ?>">
+                        <img src="<?php echo $this->getImageUrl() ?>"
+                             alt="<?php echo $this->__('Checkout with Masterpass'); ?>"
+                             title="<?php echo $this->__('Checkout with Masterpass'); ?>"/>
+                    </a>
+                </p>
+
+                <?php if ($showMoreLink): ?>
+                    <p class="masterpass-link-mini-cart">
+                        <a href="<?php echo $showMoreLink ?>"
+                           onclick="javascript:window.open('<?php echo $showMoreLink ?>',
+                               'olcwhatismasterpass','toolbar=no, location=no, ' +
+                               'directories=no, status=no, menubar=no, scrollbars=yes,' +
+                               ' resizable=yes, ,left=0, top=0, width=400, height=350');
+                               return false;">
+                            <?php echo $this->__('Learn more...') ?>
+                        </a>
+                    </p>
+                <?php endif; ?>
+            </div>
+
+            <div class="masterpass-or-minicart ">
+                <span> <?php echo Mage::helper('expercash/data')->__('-OR-') ?> </span>
+            </div>
+
+        </div>
+<?php endif; ?>

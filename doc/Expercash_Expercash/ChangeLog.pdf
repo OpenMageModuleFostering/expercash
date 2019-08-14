@@ -1,0 +1,860 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Contents 9 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 8 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R6': class PDFCatalog 
+6 0 obj
+% Document Root
+<< /Outlines 10 0 R
+ /PageLabels 11 0 R
+ /PageMode /UseNone
+ /Pages 8 0 R
+ /Type /Catalog >>
+endobj
+% 'R7': class PDFInfo 
+7 0 obj
+<< /Author ()
+ /CreationDate (D:20150506161335-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Expercash Payment Modul) >>
+endobj
+% 'R8': class PDFPages 
+8 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 5 0 R ]
+ /Type /Pages >>
+endobj
+% 'R9': class PDFStream 
+9 0 obj
+% page stream
+<< /Length 10537 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 769.3701 cm
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 107.6849 0 Td (Expercash Payment Modul) Tj T* -107.6849 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 739.3701 cm
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 193.6949 0 Td (ChangeLog) Tj T* -193.6949 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.3701 cm
+Q
+q
+1 0 0 1 62.69291 699.3701 cm
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 209.1099 0 Td (Changelog) Tj T* -209.1099 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.3701 cm
+1 1 1 rg
+n 0 468 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 450 469.8898 -156 re f*
+1 1 1 rg
+n 0 294 469.8898 -60 re f*
+.878431 .878431 .878431 rg
+n 0 234 469.8898 -42 re f*
+1 1 1 rg
+n 0 192 469.8898 -120 re f*
+.878431 .878431 .878431 rg
+n 0 72 469.8898 -36 re f*
+1 1 1 rg
+n 0 36 469.8898 -36 re f*
+.960784 .960784 .862745 rg
+n 0 468 469.8898 -18 re f*
+0 .533333 .603922 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 453 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 46.73622 12 re f*
+Q
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 2.52811 0 Td (Revision) Tj T* -2.52811 0 Td ET
+Q
+Q
+q
+1 0 0 1 64.73622 453 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 46.73622 12 re f*
+Q
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 7.81311 0 Td (Datum) Tj T* -7.81311 0 Td ET
+Q
+Q
+q
+1 0 0 1 123.4724 453 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 340.4173 12 re f*
+Q
+q
+0 .533333 .603922 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 136.8687 0 Td (Beschreibung) Tj T* -136.8687 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.05.06) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (06.05.2015) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 435 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 429 cm
+Q
+q
+1 0 0 1 123.4724 351 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 72 cm
+Q
+q
+1 0 0 1 20 72 cm
+Q
+q
+1 0 0 1 20 60 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (template header comments no longer shown in invoice pdf) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 30 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.539703 Tw (shipping address fields now have the correct values prefilled if) Tj T* 0 Tw (billing and shipping address are not equal) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 24 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.384665 Tw (generating the params for hash validation now uses correct) Tj T* 0 Tw (arg_seperator on all systems) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 351 cm
+Q
+q
+1 0 0 1 123.4724 339 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 333 cm
+Q
+q
+1 0 0 1 123.4724 297 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (make module compatible with old CE and EE versions) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (extend documentation regarding masterpass) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 297 cm
+Q
+q
+1 0 0 1 6 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.04.13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.04.2015) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 279 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 273 cm
+Q
+q
+1 0 0 1 123.4724 237 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 30 cm
+Q
+q
+1 0 0 1 20 18 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (add payment method Masterpass) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (add payment method Masterpass Fullcheckout) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 237 cm
+Q
+q
+1 0 0 1 6 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.14) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.2014) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 219 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 213 cm
+Q
+q
+1 0 0 1 123.4724 195 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 12 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (add support for Enterprise Edition) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 195 cm
+Q
+q
+1 0 0 1 6 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.10) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (10.04.2014) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 177 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 171 cm
+Q
+q
+1 0 0 1 123.4724 171 cm
+Q
+q
+1 0 0 1 123.4724 159 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (include Barzahlen payment method) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 153 cm
+Q
+q
+1 0 0 1 123.4724 141 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (use Expercash iFrame session web service for increased security) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 135 cm
+Q
+q
+1 0 0 1 123.4724 123 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (group Expercash payment methods in configuration) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 117 cm
+Q
+q
+1 0 0 1 123.4724 105 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (add multistore functionality) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 105 cm
+Q
+q
+1 0 0 1 123.4724 93 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 87 cm
+Q
+q
+1 0 0 1 123.4724 87 cm
+Q
+q
+1 0 0 1 123.4724 75 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (broken checkout template due to PHP shorttags) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 75 cm
+Q
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.09.26) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (26.09.2013) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Feature:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 51 cm
+Q
+q
+1 0 0 1 123.4724 51 cm
+Q
+q
+1 0 0 1 123.4724 39 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (send mail after automatically invoice creation) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 39 cm
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.07.04) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (04.07.2013) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Other:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 15 cm
+Q
+q
+1 0 0 1 123.4724 15 cm
+Q
+q
+1 0 0 1 123.4724 3 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Initial Release) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 3 cm
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 450 m 469.8898 450 l S
+n 0 294 m 469.8898 294 l S
+n 0 234 m 469.8898 234 l S
+n 0 192 m 469.8898 192 l S
+n 0 72 m 469.8898 72 l S
+n 0 36 m 469.8898 36 l S
+n 58.73622 0 m 58.73622 468 l S
+n 117.4724 0 m 117.4724 468 l S
+n 0 468 m 469.8898 468 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 468 l S
+n 469.8898 0 m 469.8898 468 l S
+Q
+Q
+q
+1 0 0 1 62.69291 225.3701 cm
+Q
+q
+1 0 0 1 62.69291 225.3701 cm
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 06/05/2015) Tj T* ET
+Q
+Q
+q
+1 0 0 1 246.9449 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 215.0449 0 Td (1/1) Tj T* -215.0449 0 Td ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R10': class PDFOutlines 
+10 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R11': class PDFPageLabels 
+11 0 obj
+% Document Root
+<< /Nums [ 0
+ 12 0 R ] >>
+endobj
+% 'R12': class PDFPageLabel 
+12 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 13
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000760 00000 n
+0000001037 00000 n
+0000001193 00000 n
+0000001459 00000 n
+0000001564 00000 n
+0000012202 00000 n
+0000012285 00000 n
+0000012378 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(&\325Y\272\204\233c\353+_\332\233\033\247\3779) (&\325Y\272\204\233c\353+_\332\233\033\247\3779)] 
+
+ /Info 7 0 R
+ /Root 6 0 R
+ /Size 13 >>
+startxref
+12425
+%%EOF

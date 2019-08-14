@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Expercash",
+    "type": "magento-module",
+    "license": "OSL3",
+    "homepage": "",
+    "description": "some text",
+    "authors": [
+    {
+        "name": "Sebastian Ertner",
+        "email": "sebastian.ertner@netresearch.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
