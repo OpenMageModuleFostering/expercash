@@ -24,7 +24,7 @@
 <config>
     <modules>
         <Expercash_Expercash>
-            <version>15.05.06</version>
+            <version>15.08.13</version>
         </Expercash_Expercash>
     </modules>
     <global>
@@ -73,40 +73,6 @@
                 <expercash>ExperCash</expercash>
             </groups>
         </payment>
-        <events>
-            <controller_action_layout_render_before_checkout_onepage_index>
-                <observers>
-                    <masterpass_fullcheckout>
-                        <class>expercash/observer</class>
-                        <method>setStepData</method>
-                    </masterpass_fullcheckout>
-                </observers>
-            </controller_action_layout_render_before_checkout_onepage_index>
-            <sales_order_place_before>
-                <observers>
-                    <masterpass_fullcheckout>
-                        <class>expercash/observer</class>
-                        <method>validateMasterpassSession</method>
-                    </masterpass_fullcheckout>
-                </observers>
-            </sales_order_place_before>
-            <payment_method_is_active>
-                <observers>
-                    <masterpass_fullcheckout>
-                        <class>expercash/observer</class>
-                        <method>setPaymentAvailable</method>
-                    </masterpass_fullcheckout>
-                </observers>
-            </payment_method_is_active>
-            <checkout_cart_save_after>
-                <observers>
-                    <masterpass_fullcheckout>
-                        <class>expercash/observer</class>
-                        <method>invalidateMasterpassSession</method>
-                    </masterpass_fullcheckout>
-                </observers>
-            </checkout_cart_save_after>
-        </events>
     </global>
     <adminhtml>
         <translate>
@@ -118,6 +84,7 @@
                 </Expercash_Expercash>
             </modules>
         </translate>
+
     </adminhtml>
     <frontend>
         <secure_url>
@@ -151,6 +118,41 @@
                 </expercash>
             </updates>
         </layout>
+        <events>
+            <controller_action_layout_render_before_checkout_onepage_index>
+                <observers>
+                    <masterpass_fullcheckout>
+                        <class>expercash/observer</class>
+                        <method>setStepData</method>
+                    </masterpass_fullcheckout>
+                </observers>
+            </controller_action_layout_render_before_checkout_onepage_index>
+
+            <payment_method_is_active>
+                <observers>
+                    <masterpass_fullcheckout>
+                        <class>expercash/observer</class>
+                        <method>setPaymentAvailable</method>
+                    </masterpass_fullcheckout>
+                </observers>
+            </payment_method_is_active>
+            <checkout_cart_save_after>
+                <observers>
+                    <masterpass_fullcheckout>
+                        <class>expercash/observer</class>
+                        <method>invalidateMasterpassSession</method>
+                    </masterpass_fullcheckout>
+                </observers>
+            </checkout_cart_save_after>
+            <sales_order_place_before>
+                <observers>
+                    <masterpass_fullcheckout>
+                        <class>expercash/observer</class>
+                        <method>validateMasterpassSession</method>
+                    </masterpass_fullcheckout>
+                </observers>
+            </sales_order_place_before>
+        </events>
     </frontend>
 
     <default>

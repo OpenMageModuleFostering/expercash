@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Expercash Expercash
  *
@@ -22,8 +21,6 @@
  */
 class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Front_Action
 {
-
-
     /**
      * Get singleton of Checkout Session Model
      *
@@ -34,6 +31,9 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
         return Mage::getSingleton('checkout/session');
     }
 
+    /**
+     * Redirect customer to the wallet once he chooses "Buy with Masterpass".
+     */
     public function startAction()
     {
         $quote = $this->getCheckout()->getQuote();
@@ -42,7 +42,6 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
 
         $requestParams = Mage::getModel('expercash/request_masterpass_epi')->getEpiParams($quote);
         $epiClient = Mage::getModel('expercash/api_masterpass_epi');
-
 
         try {
             $response = $epiClient->doEpiRequest($requestParams);
@@ -55,7 +54,6 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
             $this->getMasterpassHelper()->saveDataToMasterpassSession('timestamp', time());
 
             $redirectUrl = $response['masterpass_sign_in_url'];
-
         } catch (Exception $e) {
             Mage::getModel('core/session')->addError(
                 Mage::helper('expercash/data')->__(
@@ -66,37 +64,39 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
             $redirectUrl = $this->_getRefererUrl();
         }
 
-
         // redirect to provided masterpass url
         $this->_redirectUrl($redirectUrl);
-
-
     }
 
-
+    /**
+     * In case everything went fine at the wallet, the customer gets redirected here.
+     * Wallet data is set to the quote and customer can continue the checkout.
+     */
     public function successAction()
     {
         $params = $this->getRequest()->getParams();
         $mpHelper = $this->getMasterpassHelper();
 
         try {
-
             $mpHelper->validateParams($params);
             $mpHelper->validateAndSaveGutId($params);
             $mpHelper->setBillingDataToQuoteAndSession($params);
             $mpHelper->setShippingDataToQuote($params);
             $mpHelper->initOnePageCheckout();
             $mpHelper->saveEpiResponseOnPayment($params);
-
         } catch (Exception $e) {
-
             Mage::helper('expercash/data')->log($e->getMessage());
+            // customer session displays above login form, better use core session.
+            Mage::getModel('core/session')->addError($e->getMessage());
         }
 
         $this->_redirect('checkout/onepage/index/');
-
     }
 
+    /**
+     * In case something went wrong at the wallet, the customer gets redirected here.
+     * If necessary, cart is filled with items from last checkout attempt.
+     */
     public function errorAction()
     {
         //Load Checkout session
@@ -122,7 +122,6 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
         $this->_redirect('checkout/cart/');
     }
 
-
     /**
      * @return Expercash_Expercash_Model_Masterpass_Config
      */
@@ -131,7 +130,6 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
         return Mage::getModel('expercash/masterpass_config');
     }
 
-
     /**
      * @return Expercash_Expercash_Helper_Masterpass
      */
@@ -139,5 +137,4 @@ class Expercash_Expercash_FullcheckoutController extends Mage_Core_Controller_Fr
     {
         return Mage::helper('expercash/masterpass');
     }
-
 }

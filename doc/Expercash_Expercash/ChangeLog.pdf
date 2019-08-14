@@ -1,88 +1,33 @@
 %PDF-1.4
 %“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
-% 'BasicFonts': class PDFDictionary 
 1 0 obj
-% The standard fonts dictionary
-<< /F1 2 0 R
- /F2 3 0 R
- /F3 4 0 R >>
+<< /F1 2 0 R /F2 3 0 R /F3 4 0 R >>
 endobj
-% 'F1': class PDFType1Font 
 2 0 obj
-% Font Helvetica
-<< /BaseFont /Helvetica
- /Encoding /WinAnsiEncoding
- /Name /F1
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
 endobj
-% 'F2': class PDFType1Font 
 3 0 obj
-% Font Helvetica-Bold
-<< /BaseFont /Helvetica-Bold
- /Encoding /WinAnsiEncoding
- /Name /F2
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
 endobj
-% 'F3': class PDFType1Font 
 4 0 obj
-% Font Helvetica-BoldOblique
-<< /BaseFont /Helvetica-BoldOblique
- /Encoding /WinAnsiEncoding
- /Name /F3
- /Subtype /Type1
- /Type /Font >>
+<< /BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
 endobj
-% 'Page1': class PDFPage 
 5 0 obj
-% Page dictionary
-<< /Contents 9 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 8 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
+<< /Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 /Trans <<  >> 
+  /Type /Page >>
 endobj
-% 'R6': class PDFCatalog 
 6 0 obj
-% Document Root
-<< /Outlines 10 0 R
- /PageLabels 11 0 R
- /PageMode /UseNone
- /Pages 8 0 R
- /Type /Catalog >>
+<< /Outlines 10 0 R /PageLabels 11 0 R /PageMode /UseNone /Pages 8 0 R /Type /Catalog >>
 endobj
-% 'R7': class PDFInfo 
 7 0 obj
-<< /Author ()
- /CreationDate (D:20150506161335-01'00')
- /Creator (\(unspecified\))
- /Keywords ()
- /Producer (ReportLab PDF Library - www.reportlab.com)
- /Subject (\(unspecified\))
- /Title (Expercash Payment Modul) >>
+<< /Author () /CreationDate (D:20150812133930-01'00') /Creator (\(unspecified\)) /Keywords () /Producer (ReportLab PDF Library - www.reportlab.com) /Subject (\(unspecified\)) 
+  /Title (Expercash Payment Modul) >>
 endobj
-% 'R8': class PDFPages 
 8 0 obj
-% page tree
-<< /Count 1
- /Kids [ 5 0 R ]
- /Type /Pages >>
+<< /Count 1 /Kids [ 5 0 R ] /Type /Pages >>
 endobj
-% 'R9': class PDFStream 
 9 0 obj
-% page stream
-<< /Length 10537 >>
+<< /Length 12003 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -110,27 +55,29 @@ BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 209.1099 0 Td (Changelog) Tj T* -209.1099 0 Td
 Q
 Q
 q
-1 0 0 1 62.69291 225.3701 cm
+1 0 0 1 62.69291 141.3701 cm
 1 1 1 rg
-n 0 468 469.8898 -18 re f*
+n 0 552 469.8898 -18 re f*
 .878431 .878431 .878431 rg
+n 0 534 469.8898 -84 re f*
+1 1 1 rg
 n 0 450 469.8898 -156 re f*
-1 1 1 rg
+.878431 .878431 .878431 rg
 n 0 294 469.8898 -60 re f*
-.878431 .878431 .878431 rg
+1 1 1 rg
 n 0 234 469.8898 -42 re f*
-1 1 1 rg
-n 0 192 469.8898 -120 re f*
 .878431 .878431 .878431 rg
-n 0 72 469.8898 -36 re f*
+n 0 192 469.8898 -120 re f*
 1 1 1 rg
+n 0 72 469.8898 -36 re f*
+.878431 .878431 .878431 rg
 n 0 36 469.8898 -36 re f*
 .960784 .960784 .862745 rg
-n 0 468 469.8898 -18 re f*
+n 0 552 469.8898 -18 re f*
 0 .533333 .603922 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 453 cm
+1 0 0 1 6 537 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 46.73622 12 re f*
@@ -141,7 +88,7 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 2.52811 0 Td (Revision) Tj T* -2.52811 0 Td ET
 Q
 Q
 q
-1 0 0 1 64.73622 453 cm
+1 0 0 1 64.73622 537 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 46.73622 12 re f*
@@ -152,7 +99,7 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 7.81311 0 Td (Datum) Tj T* -7.81311 0 Td ET
 Q
 Q
 q
-1 0 0 1 123.4724 453 cm
+1 0 0 1 123.4724 537 cm
 q
 .960784 .960784 .862745 rg
 n 0 0 340.4173 12 re f*
@@ -164,6 +111,95 @@ Q
 Q
 0 0 0 rg
 q
+1 0 0 1 6 519 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.08.13) Tj T* ET
+Q
+Q
+q
+1 0 0 1 64.73622 507 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (13.08.201) Tj T* (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 519 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Bugfix:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 123.4724 513 cm
+Q
+q
+1 0 0 1 123.4724 453 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 42 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (fix compatibility issue with M2E) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.997165 Tw (show proper information if Masterpass payment method is not) Tj T* 0 Tw 1.505732 Tw (allowed in checkout after redirect to the shop \(e.g. deactived via) Tj T* 0 Tw (risk/fraud management tool\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 123.4724 453 cm
+Q
+q
 1 0 0 1 6 435 cm
 q
 0 0 0 rg
@@ -171,10 +207,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.05.06) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 435 cm
+1 0 0 1 64.73622 423 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (06.05.2015) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (06.05.201) Tj T* (5) Tj T* ET
 Q
 Q
 q
@@ -359,10 +395,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (15.04.13) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 279 cm
+1 0 0 1 64.73622 267 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.04.2015) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (13.04.201) Tj T* (5) Tj T* ET
 Q
 Q
 q
@@ -448,10 +484,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.14) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 219 cm
+1 0 0 1 64.73622 207 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.2014) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (14.04.201) Tj T* (4) Tj T* ET
 Q
 Q
 q
@@ -513,10 +549,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (14.04.10) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 177 cm
+1 0 0 1 64.73622 165 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (10.04.2014) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (10.04.201) Tj T* (4) Tj T* ET
 Q
 Q
 q
@@ -673,10 +709,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.09.26) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 57 cm
+1 0 0 1 64.73622 45 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (26.09.2013) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (26.09.201) Tj T* (3) Tj T* ET
 Q
 Q
 q
@@ -724,10 +760,10 @@ BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (13.07.04) Tj T* ET
 Q
 Q
 q
-1 0 0 1 64.73622 21 cm
+1 0 0 1 64.73622 9 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (04.07.2013) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL (04.07.201) Tj T* (3) Tj T* ET
 Q
 Q
 q
@@ -772,25 +808,26 @@ q
 1 j
 0 0 0 RG
 .25 w
+n 0 534 m 469.8898 534 l S
 n 0 450 m 469.8898 450 l S
 n 0 294 m 469.8898 294 l S
 n 0 234 m 469.8898 234 l S
 n 0 192 m 469.8898 192 l S
 n 0 72 m 469.8898 72 l S
 n 0 36 m 469.8898 36 l S
-n 58.73622 0 m 58.73622 468 l S
-n 117.4724 0 m 117.4724 468 l S
-n 0 468 m 469.8898 468 l S
+n 58.73622 0 m 58.73622 552 l S
+n 117.4724 0 m 117.4724 552 l S
+n 0 552 m 469.8898 552 l S
 n 0 0 m 469.8898 0 l S
-n 0 0 m 0 468 l S
-n 469.8898 0 m 469.8898 468 l S
+n 0 0 m 0 552 l S
+n 469.8898 0 m 469.8898 552 l S
 Q
 Q
 q
-1 0 0 1 62.69291 225.3701 cm
+1 0 0 1 62.69291 141.3701 cm
 Q
 q
-1 0 0 1 62.69291 225.3701 cm
+1 0 0 1 62.69291 141.3701 cm
 Q
 q
 1 0 0 1 56.69291 56.69291 cm
@@ -799,7 +836,7 @@ BT /F1 10 Tf 12 TL ET
 q
 1 0 0 1 6 3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 06/05/2015) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Stand: 12/08/2015) Tj T* ET
 Q
 Q
 q
@@ -815,46 +852,35 @@ Q
  
 endstream
 endobj
-% 'R10': class PDFOutlines 
 10 0 obj
-<< /Count 0
- /Type /Outlines >>
+<< /Count 0 /Type /Outlines >>
 endobj
-% 'R11': class PDFPageLabels 
 11 0 obj
-% Document Root
-<< /Nums [ 0
- 12 0 R ] >>
+<< /Nums [ 0 12 0 R ] >>
 endobj
-% 'R12': class PDFPageLabel 
 12 0 obj
-% None
-<< /S /D
- /St 1 >>
+<< /S /D /St 1 >>
 endobj
 xref
 0 13
 0000000000 65535 f
-0000000113 00000 n
-0000000233 00000 n
-0000000398 00000 n
-0000000573 00000 n
-0000000760 00000 n
-0000001037 00000 n
-0000001193 00000 n
-0000001459 00000 n
-0000001564 00000 n
-0000012202 00000 n
-0000012285 00000 n
-0000012378 00000 n
+0000000075 00000 n
+0000000129 00000 n
+0000000239 00000 n
+0000000354 00000 n
+0000000476 00000 n
+0000000683 00000 n
+0000000790 00000 n
+0000001023 00000 n
+0000001085 00000 n
+0000013145 00000 n
+0000013195 00000 n
+0000013239 00000 n
 trailer
 << /ID 
- % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(&\325Y\272\204\233c\353+_\332\233\033\247\3779) (&\325Y\272\204\233c\353+_\332\233\033\247\3779)] 
-
- /Info 7 0 R
- /Root 6 0 R
- /Size 13 >>
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\261\246$c\234\252\367\344\260L\270\025\246j\300\371) (\261\246$c\234\252\367\344\260L\270\025\246j\300\371)]
+ /Info 7 0 R /Root 6 0 R /Size 13 >>
 startxref
-12425
+13276
 %%EOF
