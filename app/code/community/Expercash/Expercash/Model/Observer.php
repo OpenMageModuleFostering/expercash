@@ -104,7 +104,7 @@ class Expercash_Expercash_Model_Observer
     public function validateMasterpassSession(Varien_Event_Observer $observer)
     {
         /** @var  $quote Mage_Sales_Model_Quote */
-        $quote = Mage::getModel('checkout/session')->getQuote();
+        $quote = $observer->getOrder()->getQuote();
         $methodInstance = $quote->getPayment()->getMethodInstance();
 
         if ($methodInstance instanceof Expercash_Expercash_Model_Expercashmpf) {
@@ -175,4 +175,5 @@ class Expercash_Expercash_Model_Observer
     {
         return Mage::getSingleton('checkout/type_onepage');
     }
+
 }
