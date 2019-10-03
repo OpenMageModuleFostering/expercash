@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Expercash",
+    "name": "OpenMageModuleFostering\/Expercash",
     "type": "magento-module",
     "license": "OSL3",
     "homepage": "",
     "description": "E-Payment from ExperCash",
     "authors": [
-    {
-        "name": "Sebastian Ertner",
-        "email": "sebastian.ertner@netresearch.de"
-    }
-],
+        {
+            "name": "Sebastian Ertner",
+            "email": "sebastian.ertner@netresearch.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
